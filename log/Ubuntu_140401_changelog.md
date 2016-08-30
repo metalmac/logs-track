@@ -368,7 +368,7 @@ metalmac_ubuntu_140401_ws@201608302102         {{{2
 
 	更新如下：
 
-       1.更新dotfiles,、;
+       1.更新dotfiles,更新linux的.vimrc文件;
        2.从Github中获取个人对Linux/Ubuntu 14.04.01虚拟机的log-tracks,并保持更新;
        3.安装并配置vim-fugitive和 vim-unimpaired插件,增强vim中对Git的操作功能及对quickfix窗口的操作功能;
 
