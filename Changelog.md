@@ -1,3 +1,6 @@
+Version 0.2.0
+	1.Update logs;
+
 Version 0.1.1
 	1.Add .gitignore file into this git repos;
 
