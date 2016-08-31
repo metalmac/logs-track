@@ -1,4 +1,8 @@
 
+Version 0.2.2
+	1.Update logs;
+	2.Install session.vim,vim-textobj-user,vim-textobj-entire plugin;
+
 Version 0.2.1
 	1.Fix the Ubuntu_140401_changelog.md description issue;
 
