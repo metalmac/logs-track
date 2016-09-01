@@ -1,3 +1,10 @@
+
+@2016.09.01
+Version 0.2.4
+	1.Install DDD;
+	2.Update the software and backups;
+	3.Update logs;
+
 @2016.09.01
 Version 0.2.3.1
 	1.Add vms git repository;
