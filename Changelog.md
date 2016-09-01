@@ -1,3 +1,7 @@
+@2016.09.01
+Version 0.2.3
+	1.Update logs;
+	2.Create metalmac-git-datebase folder to provide a unified place for my own git repositories;
 
 Version 0.2.2
 	1.Update logs;
