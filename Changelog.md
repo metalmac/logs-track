@@ -1,4 +1,11 @@
 
+@2016.09.02
+Version 0.2.5
+	1.Update the software and backups;
+	2.Add session into vms-git;
+	3.Modify the tmux history-limit option;
+	4.Update logs;
+
 @2016.09.01
 Version 0.2.4
 	1.Install DDD;
