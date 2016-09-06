@@ -1,4 +1,10 @@
 
+@2016.09.06
+Version 0.2.6
+	1.Update the software and backups;
+	2.Install sysstat program to monitor the system;
+	3.Update logs;
+
 @2016.09.02
 Version 0.2.5
 	1.Update the software and backups;
