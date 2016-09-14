@@ -1,3 +1,7 @@
+@2016.09.14
+Version 0.3.0
+	1.Update the software and backups;
+	2.Compile and install the vim 8.0 from vim-git;
 
 @2016.09.06
 Version 0.2.6
