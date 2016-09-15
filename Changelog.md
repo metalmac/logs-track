@@ -1,3 +1,9 @@
+
+@2016.09.15
+Version 0.3.1
+	1.Update the software and backups;
+	2.Retrive the vim.git and patch for vim V8.0.0004;
+
 @2016.09.14
 Version 0.3.0
 	1.Update the software and backups;
