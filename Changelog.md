@@ -1,4 +1,10 @@
 
+@2016.09.16
+Version 0.3.2
+	1.Obtain the vim.git and patch for vim V8.0.0005,and recompile vim with python support;
+	2.Update the vim plugin using Vundle;
+	3.Obtain the latest ycm git respository ,compile and install ycm plugin for vim 8.0.0005;
+
 @2016.09.15
 Version 0.3.1
 	1.Update the software and backups;
