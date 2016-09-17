@@ -1,4 +1,11 @@
 
+@2016.09.17
+Version 0.3.3
+	1.Obtain the vim binary package and patch for vim V8.0.0005,and reinstall the vim;
+	2.Update the vim plugin using Vundle;
+	3.Set up the ruby environment for vim,and install command-t plugin with Vundle;
+	4.Packing vim and backup with 7z;
+
 @2016.09.16
 Version 0.3.2
 	1.Obtain the vim.git and patch for vim V8.0.0005,and recompile vim with python support;
