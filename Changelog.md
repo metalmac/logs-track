@@ -1,5 +1,12 @@
 
 @2016.09.17
+Version 0.3.4
+	1.Install YouCompleteMe plugin with Vundle;
+	2.Cross-compile ycm_core library of ycm based on the msys2 environment
+      (Occured the utf8 decode issue to be solved, comment the ycm plugin in vimrc file for now) ;
+	3.Packing vim and backup with 7z;
+
+@2016.09.17
 Version 0.3.3
 	1.Obtain the vim binary package and patch for vim V8.0.0005,and reinstall the vim;
 	2.Update the vim plugin using Vundle;
