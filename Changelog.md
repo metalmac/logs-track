@@ -1,4 +1,10 @@
 
+@2016.09.18
+Version 0.3.5
+	1.Update .vimrc for vim;
+	2.Update .zshrc for zsh;
+	3.Add .capslockSwapRctrl into .zshrc file to support the mechanism of swapping CapsLock with Ctrl;
+
 @2016.09.17
 Version 0.3.4
 	1.Install YouCompleteMe plugin with Vundle;
