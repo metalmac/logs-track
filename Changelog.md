@@ -1,5 +1,5 @@
 
-@2016.09.18
+@2016.09.19
 Version 0.3.6
 	1.Add descriptions for the updating of windows IDE .vimrc ;
 
