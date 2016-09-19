@@ -1,3 +1,6 @@
+@2016.09.19
+Version 0.3.7
+	1.Update .vimrc for vim, adding some key-mapping for vim-fugitive and command-t plugin;
 
 @2016.09.19
 Version 0.3.6
