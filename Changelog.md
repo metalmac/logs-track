@@ -1,5 +1,9 @@
 
 @2016.09.18
+Version 0.3.6
+	1.Add descriptions for the updating of windows IDE .vimrc ;
+
+@2016.09.18
 Version 0.3.5
 	1.Update .vimrc for vim;
 	2.Update .zshrc for zsh;
