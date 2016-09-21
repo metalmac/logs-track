@@ -1,3 +1,6 @@
+@2016.09.21
+Version 0.3.9.1
+    1.Update windows IDE vim changelog,correct some errors;
 
 @2016.09.21
 Version 0.3.9
