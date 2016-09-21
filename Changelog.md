@@ -1,3 +1,9 @@
+
+@2016.09.21
+Version 0.4.0.1
+    1.Update Ubuntu_140401_changelog.md file;
+    2.Correct some errors in vim80_linux_IDE_WS_changelog.md;
+
 @2016.09.21
 Version 0.4.0
     1.Recompile and update vim for linux IDE with patch 8.0.0006;
