@@ -1,4 +1,8 @@
 
+@2016.09.21
+Version 0.3.9
+    1.Update vim to V8.0.0006 with patch for windows IDE;
+
 @2016.09.19
 Version 0.3.8
     1.Update _vimrc file for uncommenting “set encoding=utf8" to fix the ycm decode issue in windows IDE;
