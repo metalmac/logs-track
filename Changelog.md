@@ -1,4 +1,9 @@
 @2016.09.21
+Version 0.4.0
+    1.Recompile and update vim for linux IDE with patch 8.0.0006;
+    2.Update vimrc file for linux IDE with rearranging ycm plugin settings options;
+
+@2016.09.21
 Version 0.3.9.1
     1.Update windows IDE vim changelog,correct some errors;
 
