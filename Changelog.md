@@ -1,4 +1,8 @@
 @2016.09.23
+Version 0.4.3.1
+    1.Update vim to V8.0.0007 with patch for windows x86 IDE;
+
+@2016.09.23
 Version 0.4.3
     1.Recompile and update vim for linux IDE with patch 8.0.0008;
 
@@ -10,17 +14,7 @@ Version 0.4.1
 Version 0.4.0.1
     1.Update Ubuntu_140401_changelog.md file;
     2.Correct some errors in vim80_linux_IDE_WS_changelog.md;
-
-@2016.09.21
-Version 0.4.0
-    1.Recompile and update vim for linux IDE with patch 8.0.0006;
-    2.Update vimrc file for linux IDE with rearranging ycm plugin settings options;
-
-@2016.09.21
-Version 0.3.9.1
-    1.Update windows IDE vim changelog,correct some errors;
-
-@2016.09.21
+g@2016.09.21
 Version 0.3.9
     1.Update vim to V8.0.0006 with patch for windows IDE;
 
