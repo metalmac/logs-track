@@ -1,3 +1,8 @@
+
+@2016.09.23
+Version 0.4.4
+    1.Install vim-cpp-enhanced-highlight and vim-fswitch plugin with Vundle to enchance the syntax highlight fucntion;
+
 @2016.09.23
 Version 0.4.3.1
     1.Update vim to V8.0.0007 with patch for windows x86 IDE;
