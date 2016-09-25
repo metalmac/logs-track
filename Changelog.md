@@ -1,3 +1,8 @@
+
+@2016.09.23
+Version 0.4.4.2
+    1.Update vim to V8.0.0008 with patch for windows x64 IDE;
+
 @2016.09.23
 Version 0.4.4.1
     1.Install vim-cpp-enhanced-highlight and vim-fswitch plugin with Vundle in linux IDE;
