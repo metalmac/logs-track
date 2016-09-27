@@ -1,4 +1,9 @@
 
+@2016.09.27
+Version 0.5.0
+    1.Update vim to V8.0.0016 with patch for windows x64 IDE;
+
+
 @2016.09.23
 Version 0.4.4.2
     1.Update vim to V8.0.0008 with patch for windows x64 IDE;
