@@ -1,8 +1,11 @@
 
 @2016.09.27
+Version 0.5.1
+    1.Recompile and update vim for linux IDE with patch 8.0.0016;
+
+@2016.09.27
 Version 0.5.0
     1.Update vim to V8.0.0016 with patch for windows x64 IDE;
-
 
 @2016.09.23
 Version 0.4.4.2
