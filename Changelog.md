@@ -1,3 +1,6 @@
+@2016.09.29
+Version 0.6.2.1
+    1.Update all the installed vim plugins with Vundle in linux IDE;
 
 @2016.09.29
 Version 0.6.2
