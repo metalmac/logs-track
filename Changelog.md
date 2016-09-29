@@ -1,4 +1,10 @@
 
+@2016.09.29
+Version 0.5.2
+    1.Update vim to V8.0.0016 with patch for windows x64 IDE;
+    2.Fix some issues in Vim of Windows IDE;
+    3.Add ycm compile log into logs-track git;
+
 @2016.09.27
 Version 0.5.1
     1.Recompile and update vim for linux IDE with patch 8.0.0016;

@@ -1,0 +1,50 @@
+
+Windows 下跨平台编译Vim的YouCompleteMe插件(后文简称ycm)
+参考博文:http://onetracy.com/2015/08/16/build_ycm_in_windows/
+
+步骤简介如下:（详见博文介绍)
+1) 在Vim的目录中通过Git获取ycm插件源码(或基于Vundle进行安装);
+2) 下载llvm编译工具链,安装并设置系统环境变量;
+3) 下载msys2并进行相关依赖包的下载,配置插件包机环境变量;
+4) 在msys2中利用cmake及mingw32-make命令进行配置和编译ycm_core;
+
+***注意事项
+1) 所有软件版本必须统一为32位或64位,Vim,python,llvm,msys2;
+2) ycm插件必须下载相关子模块,即git clone后还须运行git submodule update --init --recursive(若使用Vundle则会自动运行);
+3) 安装的Python,llvm,msys2需要在Windows的系统环境变量path指定路径,以便编译时能找到相应的库和程序文件;
+4) 基于Mingw32-make编译安装必须使用其自带的python.exe及libpython27.a,不可使用Windows版的python.exe;
+   经编译测试时,使用了windows版的python.exe,ycm_core库能正常编译成功,但会在vim加载ycm时报错,即"UnicodeDecodeError: 'ascii' codec can't decode byte 0xd5 in position 17: ordinal not in range(128)
+Logged from file server_utils.py, line 107"，(此问题折腾了很久切记切记！！！)
+
+以下为成功cmake配置及编译ycm的log
+metalmac@metalmac-PC MINGW64 /f/ycm_build
+$ !57
+cmake -G "MSYS Makefiles" -DCMAKE_MAKE_PROGRAM=C:/Open_Source_Progs/msys64/mingw64/bin/mingw32-make.exe -DPATH_TO_LLVM_ROOT=C:/Open_Source_Progs/LLVM . C:/Vim/vimfiles/bundle/YouCompleteMe/third_party/ycmd/cpp
+-- The C compiler identification is GNU 6.2.0
+-- The CXX compiler identification is GNU 6.2.0
+-- Check for working C compiler: C:/Open_Source_Progs/msys64/mingw64/bin/gcc.exe
+-- Check for working C compiler: C:/Open_Source_Progs/msys64/mingw64/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: C:/Open_Source_Progs/msys64/mingw64/bin/g++.exe
+-- Check for working CXX compiler: C:/Open_Source_Progs/msys64/mingw64/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Your C++ compiler supports C++11, compiling in that mode.
+-- Found PythonLibs: C:/Python27/libs/libpython27.a (found suitable version "2.7.12", minimum required is "2.6")
+Using libclang to provide semantic completion for C/C++/ObjC
+Using external libclang: C:/Open_Source_Progs/LLVM/bin/libclang.dll
+-- Found PythonInterp: C:/Open_Source_Progs/msys64/mingw64/bin/python2.7.exe (found version "2.7.12")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/ycm_build
+
