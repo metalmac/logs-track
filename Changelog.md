@@ -1,4 +1,8 @@
 @2016.09.29
+Version 0.6.3
+    1.Update vim to V8.0.0017 with patch for windows x64 IDE;
+
+@2016.09.29
 Version 0.6.2.1
     1.Update all the installed vim plugins with Vundle in linux IDE;
 
