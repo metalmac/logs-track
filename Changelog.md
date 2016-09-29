@@ -1,3 +1,9 @@
+
+@2016.09.29
+Version 0.6.1
+    1.Update the vim plugins with Vundle in windows IDE;
+    2.Re-classify the logs by adding the Vim_Changelog,Ubuntu_Changelog and ycm_Compile_log directories;
+
 @2016.09.29
 Version 0.6.0
     1.Recompile and update vim for linux IDE with patch 8.0.0017;
