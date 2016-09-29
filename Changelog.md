@@ -1,6 +1,10 @@
 
 @2016.09.29
 Version 0.6.1
+    1.Update all the installed vim plugins with Vundle in windows IDE;
+
+@2016.09.29
+Version 0.6.1
     1.Update the vim plugins with Vundle in windows IDE;
     2.Re-classify the logs by adding the Vim_Changelog,Ubuntu_Changelog and ycm_Compile_log directories;
 
