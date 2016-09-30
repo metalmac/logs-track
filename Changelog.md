@@ -1,6 +1,10 @@
 
 #Track the changes of logs
 @2016.09.30
+Version 0.6.4.2
+    1.Update the Ubuntu_Changelog;
+
+@2016.09.30
 Version 0.6.4.1
     1.Recompile and update vim for linux IDE with patch 8.0.0019;
 
