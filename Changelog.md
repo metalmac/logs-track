@@ -1,5 +1,12 @@
-
 #Track the changes of logs
+
+@2017.01.09
+Version 0.6.5
+    1.Install vim-signify,vim-easy-align,vim-repeat,visualrepeat plugin with Vundle in windows IDE;
+    2.Update the vim marks,registers and tagbar keymapping;
+    3.Modify the _vimrc file layout in windows IDE;
+    4.Bakups windows x64 IDE vim;
+
 @2016.09.30
 Version 0.6.4.2
     1.Update the Ubuntu_Changelog;
