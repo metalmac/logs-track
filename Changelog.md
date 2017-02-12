@@ -1,6 +1,6 @@
 #Track the changes of logs
 @2017.02.13
-Version 0.6.5
+Version 0.6.6
     1.Install vim-sneak plugin with Vundle in windows IDE;
     2.Update the vim-sneak plugin settings in _vimrc file;
 
